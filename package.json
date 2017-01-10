@@ -1,7 +1,7 @@
 {
-  "name": "react-tutorials",
-  "version": "0.0.0",
-  "description": "",
+  "name": "Oembed-react",
+  "version": "1.0.0",
+  "description": "The simple API allows a website to display embedded content (such as photos or videos) when a user posts a link to that resource, without having to parse the resource directly.",
   "main": "webpack.config.js",
   "dependencies": {
     "babel-core": "^6.17.0",
@@ -25,6 +25,6 @@
   "scripts": {
     "start": "webpack-dev-server --hot"
   },
-  "author": "",
+  "author": "Senthilnathan",
   "license": "ISC"
 }
