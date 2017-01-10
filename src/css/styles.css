@@ -1,0 +1,51 @@
+.jumbotron .panel{
+	margin-top: 10px;
+}
+.preview-panel img{
+	float: left;
+	width: 25%;
+}
+.preview-desc{
+	    text-align: left;
+    padding-left: 150px;
+}
+.preview-desc p{
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.marketing img{
+	width: 100%;
+	cursor: pointer;
+}
+iframe{
+	width: 100%;
+}
+.jumbotron .sub-txt{
+	font-size: 12px;
+    text-align: left;
+    padding-bottom: 5px;
+    color: #999;
+    margin-bottom: 0;
+}
+#overlay    {      
+	background: rgba(0,0,0,.75);
+    text-align: center;
+    /* padding: 45px 0 66px 0; */
+    opacity: 0;
+    -webkit-transition: opacity .25s ease;
+    position: absolute;
+    width: 100%;
+    height: 100%;}
+.image-avatar{
+	position: relative;
+}
+.image-avatar:hover #overlay {
+               opacity:1;
+cursor: pointer;
+           }
+
+.plus {  
+     font-weight: 900;
+    color: rgba(255,255,255,.85);
+    font-size: 50px;
+    top: 25%;}
